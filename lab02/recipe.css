@@ -1,0 +1,11 @@
+body { background-color: #9fc5e8;
+       color: #FFFFFF; 
+       margin: 20px; }
+h1 { font-family: Georgia; }
+h2 { font-family: Georgia; }
+h3 { font-family: Verdana; 
+     text-transform: uppercase; 
+     text-decoration: underline; 
+     font-weight: bold }
+p { font-family: Verdana; }
+li { font-family: Verdana; }
