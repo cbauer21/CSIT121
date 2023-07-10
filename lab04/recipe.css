@@ -17,10 +17,10 @@ h3 { color: #00FFFF;
      text-decoration: underline; 
      font-weight: bold; }
 p { font-family: Verdana; }
-ul { font-family: Verdana;
+.ingredients { font-family: Verdana;
      float:left;
      width: 300px; }
-ol { font-family: Verdana;
+.directions { font-family: Verdana;
      margin-left: 600px; }
 
 #wrapper { margin-left: auto;
