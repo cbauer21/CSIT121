@@ -74,5 +74,11 @@ footer { margin-top: 700px;
            background-size: cover; 
            font-size: 14px;}
      img{ max-width: 100%;
-          height: auto; }      
+          height: auto;
+          margin: 0; }
+     table{ max-width: 100%;
+            margin: 0; }      
+     form { max-width: 100%;
+            margin: 0; } 
+
 }
