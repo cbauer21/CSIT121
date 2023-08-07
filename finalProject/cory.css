@@ -1,0 +1,75 @@
+nav { font-family: Verdana;
+      font-size: 16px; }
+
+body { background-image: url(images/microphone.jpeg);
+       background-size: cover;
+       background-attachment: fixed;
+       color: #FFFFFF; 
+       margin: 20px; }
+h1 { font-family: Georgia; 
+     text-align: center; }
+h2 { font-family: Georgia; }
+h3 { color: #00FFFF;
+     font-family: Verdana; 
+     text-transform: uppercase; 
+     text-decoration: underline; 
+     font-weight: bold;  
+     text-align:center;
+     margin-left: 5px;}
+p { font-family: Verdana;
+     margin-left:25px;
+     text-align:center; }
+li { font-family: Verdana;
+     margin-left:475px; }
+
+
+#images { display:grid;
+          grid-template-columns: 550px 550px 550px;
+          grid-template-rows: 550px;
+          margin-left: 40px;}
+.acting { margin-left: 350px; }
+
+#wrapper { margin-left: auto;
+           margin-right: auto;
+           width: 80%; }
+a:link { color: #ffffff; }
+a:visited {color: #ffffff; }
+a:hover { text-decoration: none;
+          color: #add8e6; }
+a { margin-left: 30px; }
+
+table { margin-left: 350px;
+        border: 5px solid #ffffff;
+        width: 500px; 
+        background-color: #000080;}
+td, th { font-family: Verdana;
+          border-style: none; }
+.nutrition { font-size: 16px;
+             font-weight: bold; }
+
+form { font-family: Verdana;
+       width: 1000px; padding: 10px;
+       margin-left: 450px; }
+input { margin-top: 5px; }
+textarea {margin-top: 5px;}
+label { float: left; clear: left; display: block;
+         width: 100px; padding-right: 10px;
+         margin-top: 5px; text-align: right; }
+
+footer { margin-top: 700px;
+         margin-left: 100px }
+
+@media (max-width: 768px) {
+
+     .acting {width: 100%;
+          float: none;}
+     #images {width: 100%;
+          float: none;
+          margin: 0;}
+     body { background-color:#000080;
+           background-image: url(images/microphone.jpeg);
+           background-size: contain; 
+           font-size: 14px;}
+     img{ max-width: 100%;
+          height: auto; }      
+}
